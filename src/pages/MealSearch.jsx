@@ -24,7 +24,7 @@ const MealSearch = () => {
 
     return (
         <div className=" h-full">
-            <ReturnButton isCat={false}/>
+            <ReturnButton toForm={false}/>
             {isLoading && <h6 className="text-2xl md:text-3xl lg:text-5xl tracking-wider">Loading...</h6>}
             {error && 
                 <div>

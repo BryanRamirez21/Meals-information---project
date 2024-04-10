@@ -21,7 +21,7 @@ const Meals = () => {
 
     return (
         <>
-        <ReturnButton isCat={true}/>
+        <ReturnButton toForm={true}/>
         <h1 className=" my-20">Meals with {data.ingredient}</h1>
             <div className='flex flex-wrap'>
                 {isLoading && <h6 className="text-2xl md:text-3xl lg:text-5xl tracking-wider">Loading...</h6>}
